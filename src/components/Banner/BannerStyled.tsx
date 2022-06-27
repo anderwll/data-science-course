@@ -1,21 +1,18 @@
 import styled from 'styled-components'
+import img1 from '../../assets/img1.png'
 
-interface BannerProps {
-  urlImagem: string
-}
-
-const BannerStyled = styled.div<BannerProps>`
+const BannerStyled = styled.div`
   width: 100%;
-  height: 40vh;
-  color: #f5f5f5;
-  background-image: url(${(props) => props.urlImagem});
+  height: 93vh;
+  color: #333;
+  background-image: url(${img1});
+  background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 
-  h6 {
-    font-size: 30px;
-    color: #fff;
+  h1 {
+    font-size: 50px;
   }
 `
 

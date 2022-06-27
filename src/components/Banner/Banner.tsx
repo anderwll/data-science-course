@@ -1,15 +1,23 @@
-import React from 'react'
+import * as React from 'react'
+import Button from '@mui/material/Button'
+import { ButtonGroup } from '@mui/material'
 import BannerStyled from './BannerStyled'
+import ContainerTexto from './ContainerTexto'
 
-interface BannerProps {
-  titulo: string
-  background: string
-}
-
-const Banner: React.FC<BannerProps> = ({ titulo, background }) => {
+const Banner: React.FC = () => {
   return (
-    <BannerStyled urlImagem={background}>
-      <h6>{titulo}</h6>
+    <BannerStyled>
+      <ContainerTexto>
+        <h1>Sua Carreira Profissional Elevada a Outro Nível!</h1>
+        <ButtonGroup
+          size="large"
+          variant="outlined"
+          aria-label="outlined button group"
+        >
+          <Button color="success">COMECE AGORA</Button>
+          <Button color="warning">CONHEÇA NOSSOS CURSOS</Button>
+        </ButtonGroup>
+      </ContainerTexto>
     </BannerStyled>
   )
 }
