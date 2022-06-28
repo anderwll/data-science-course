@@ -19,7 +19,7 @@ const SectionContent = () => {
             </span>
           </SectionTexto>
         </Grid>
-        <Grid item xs={3} md={4}>
+        <Grid item xs={3} md={4} sm={12}>
           <SectionTexto>
             <h2>Escolha uma Formação Ideal para Você</h2>
             <p>
@@ -30,7 +30,7 @@ const SectionContent = () => {
             <ButtonSaibaMais />
           </SectionTexto>
         </Grid>
-        <Grid item xs={3} md={4}>
+        <Grid item xs={3} md={4} sm={12}>
           <SectionTexto>
             <h2>Escolha um Curso Individual</h2>
             <p>
@@ -41,7 +41,7 @@ const SectionContent = () => {
             <ButtonSaibaMais />
           </SectionTexto>
         </Grid>
-        <Grid item xs={3} md={4}>
+        <Grid item xs={3} md={4} sm={12}>
           <SectionTexto>
             <h2>Conheça Nossos Cursos Gratuitos</h2>
             <p>

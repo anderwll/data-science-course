@@ -10,14 +10,16 @@ const SectionCursosStyled = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   padding: 50px;
 
   h1 {
     margin-bottom: 20px;
+    font-size: 50px;
   }
 
-  h2 {
-    margin-bottom: 10px;
+  h3 {
+    margin-bottom: 35px;
   }
 `
 
